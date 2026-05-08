@@ -30,5 +30,6 @@ To optimize simulation performance and replicate realistic operational constrain
 * **Positioning:** Ground truth positioning is gathered via Webots `GPS`, `InertialUnit`, and `Gyro` nodes.
 
 ## Requirements
-This project requires Python libraries such as OpenCV and NumPy for real-time image processing, QR decoding, and HSV color detection. These libraries enable the autonomous UAV swarm to perform PID-stabilized Pitch/Roll maneuvers and execute dynamic geometric formations like Arrowhead, Line, and V-Shape successfully.d. 
+This project requires Python libraries such as OpenCV and NumPy for real-time image processing, QR decoding, and HSV color detection. These libraries enable the autonomous UAV swarm to perform PID-stabilized Pitch/Roll maneuvers and execute dynamic geometric formations like Arrowhead, Line, and V-Shape successfully.
+In addition, You need to choose this python file  "swarm_ctrl_qr.py" as a controller in Webots
 
