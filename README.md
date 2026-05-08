@@ -2,10 +2,10 @@
 
 ## Objective
 The primary objective of this project is to develop and simulate a decentralized, autonomous Unmanned Aerial Vehicle (UAV) swarm system within the Webots environment. The system demonstrates advanced dynamic formation control, vision-based environmental interaction, and robust inter-drone communication. The algorithm is designed to manage swarm state transitions, autonomous navigation, and dynamic task allocation without central external commands.
-
-<img width="1632" height="852" alt="Image1" src="https://github.com/user-attachments/assets/50704997-31cf-456b-952c-c4d227c17a19" />
-
-<img width="768" height="432" alt="im2" src="https://github.com/user-attachments/assets/7bd1fe1e-769b-40c8-bd0f-194e9c8fc2d4" />
+<p align="center">
+  <img width="49%" alt="Image1" src="https://github.com/user-attachments/assets/50704997-31cf-456b-952c-c4d227c17a19" />
+  <img width="49%" alt="im2" src="https://github.com/user-attachments/assets/7bd1fe1e-769b-40c8-bd0f-194e9c8fc2d4" />
+</p>
 
 
 ## Core Capabilities & Showcase
