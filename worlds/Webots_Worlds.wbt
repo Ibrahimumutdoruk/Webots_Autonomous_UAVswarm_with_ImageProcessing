@@ -1,0 +1,714 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/SandyGround.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Windmill.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/manhole/protos/SquareManhole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/bitcraze/crazyflie/protos/Crazyflie.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/TableWithUmbrella.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/computers/protos/ComputerMouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/WallPlug.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/bathroom/protos/BathroomSink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/utensils/protos/Plate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/utensils/protos/Knife.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/drinks/protos/Can.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/drinks/protos/WaterBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/MetalStorageBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/ElectricalPlug.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/rockin/protos/RoCKInShelf.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/fruits/protos/FruitBowl.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/fruits/protos/Apple.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/fruits/protos/Orange.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/Barbecue.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/garden/protos/PicketFence.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/hospital/protos/HandSanitizer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/kitchen/utensils/protos/Fork.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/paintings/protos/PortraitPainting.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/school_furniture/protos/Clock.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/TrashBin.proto"
+
+WorldInfo {
+  title "Laplacian TEKNOFEST 2026 - Swarm"
+  basicTimeStep 7
+}
+Viewpoint {
+  orientation 0.17337761268361743 0.17806003615933347 -0.9686252252254566 1.6462852593666382
+  position 16.20933833084729 50.659473312422875 26.68432650278492
+  follow "cf2"
+}
+TexturedBackground {
+  luminosity 3
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+Floor {
+  size 400 400
+  tileSize 6 6
+  appearance SandyGround {
+  }
+}
+TrashBin {
+  translation -12.092 -9.99266 0
+  rotation 0 0 1 0.785398
+}
+Clock {
+  translation -7.53401 -15.1431 2
+  rotation 0 0 1 0.785398
+}
+PortraitPainting {
+  translation -8.82458 -13.8378 1.855
+  rotation 0 0 1 0.785398
+}
+Fork {
+  translation -4.800712137121977 -15.36259590811626 0.9311604700223224
+  rotation 0.003516396822593252 0.0009421732119626 0.999993373609558 -2.618018317930443
+}
+Fork {
+  translation -5.120975915541051 -15.026792150162366 0.9311604702330541
+  rotation 0.003516389034731063 0.002030215165893339 0.9999917565832914 -2.0943921338186193
+  name "fork(1)"
+}
+Fork {
+  translation -5.538720000010181 -14.901791140851559 0.9311604662628676
+  rotation -0.003516371666779408 -0.003516372335072255 -0.9999876350515051 1.5708123650789936
+  name "fork(2)"
+}
+Fork {
+  translation -8.678044872165701 -11.5123451410703 0.9211604317346997
+  rotation 0.0035164032806260254 0.0014565491511676692 0.9999927566600361 -2.3561961061836674
+  name "fork(3)"
+}
+Fork {
+  translation -8.525394275860307 -11.929491079235875 0.9211604317346997
+  rotation 0.003516406633875519 0.00046296157203470304 0.9999937102557036 -2.87978491088282
+  name "fork(4)"
+}
+Fork {
+  translation -8.588411718262256 -12.382709951844461 0.9211604317346997
+  rotation 0.0035164070107173715 1.612360312621257e-07 0.9999938174217423 -3.141500949166595
+  name "fork(5)"
+}
+HandSanitizer {
+  translation -7.85192 -14.7242 0.93
+  rotation 0 0 -1 -2.3561953071795863
+}
+PicketFence {
+  translation -7.0803 -15.7206 0.04
+  rotation 0 0 1 0.785398
+  name "picket fence(3)"
+}
+PicketFence {
+  translation -5.88534 -16.9178 0.04
+  rotation 0 0 1 0.785398
+  name "picket fence(4)"
+}
+PicketFence {
+  translation -4.69754 -18.1083 0.04
+  rotation 0 0 1 2.35619
+  name "picket fence(5)"
+}
+PicketFence {
+  translation -3.5026 -16.9154 0.04
+  rotation 0 0 1 2.35619
+  name "picket fence(6)"
+}
+PicketFence {
+  translation -12.7913 -10.0113 0.04
+  rotation 0 0 1 0.785398
+  name "picket fence(2)"
+}
+PicketFence {
+  translation -11.5363 -8.8022 0.04
+  rotation 0 0 1 -0.785395307179586
+  name "picket fence(7)"
+}
+PicketFence {
+  translation -10.3182 -7.58607 0.04
+  rotation 0 0 1 -0.785395307179586
+  name "picket fence(8)"
+}
+PicketFence {
+  translation -10.3892 -12.4134 0.04
+  rotation 0 0 1 0.785398
+}
+PicketFence {
+  translation -11.6018 -11.2008 0.04
+  rotation 0 0 1 0.785398
+  name "picket fence(1)"
+}
+Barbecue {
+  translation -10.38 -10.85 0
+}
+Orange {
+  translation -5.120644377299356 -15.84857316925854 0.9898358481841038
+  rotation -0.030542336168200585 0.07614615706145678 -0.9966287816765882 0.5372912481530018
+}
+Apple {
+  translation -5.034103664086321 -15.798466247583942 0.9898464187689785
+  rotation 0.5148300803818295 0.21649335147477528 -0.8295062489826452 1.5674241478473439
+}
+Apple {
+  translation -5.1707512846128 -15.76203244773509 0.9898464237846835
+  rotation 0.16631344077644583 -0.09246507016967252 0.9817280938302709 1.1257398260604812
+  name "apple(1)"
+}
+FruitBowl {
+  translation -5.099781801536688 -15.770286942877524 0.9299068207411216
+  rotation 0.0002498532648358143 -0.00014396832799304517 0.9999999584232325 0.5248338185511203
+}
+ElectricalPlug {
+  translation -5.1979330208905274 -11.729065487686132 0.7912937312852816
+  rotation 0.10186117679163331 -0.04221174253554065 -0.9939026458636362 -2.360191768238879
+}
+ElectricalPlug {
+  translation -5.574094187997016 -11.352629333785782 0.7912935799719661
+  rotation 0.09898751661355659 0.23947959426133997 -0.9658421172671572 0.8087435957670281
+  name "electrical plug(1)"
+}
+RoCKInShelf {
+  translation -8.68019 -13.7802 0
+  rotation 0 0 1 0.785398
+}
+FireExtinguisher {
+  translation -7.167442191446405 -15.311401339685435 -0.0011771999962986168
+  rotation 0.0016389365076475036 0.0004717583862906237 0.9999985456645168 0.8467133192782239
+}
+MetalStorageBox {
+  translation -0.960716 -14.8674 0.02
+  rotation 0 0 1 2.0944
+}
+MetalStorageBox {
+  name "metal storage box(1)"
+  translation -1.87001 -15.3924 0.02
+  rotation 0 0 1 2.0944
+}
+Pine {
+  translation -8.1829 -17.2679 0
+  name "pine tree(10)"
+}
+Pine {
+  translation -7.3129 -18.3679 0
+  name "pine tree(13)"
+}
+Pine {
+  translation -6.1129 -19.2179 0
+  name "pine tree(14)"
+}
+Pine {
+  translation -9.3529 -16.1879 0
+  name "pine tree(9)"
+}
+Pine {
+  translation -11.0429 -13.2179 0
+  name "pine tree(7)"
+}
+Pine {
+  translation -10.1929 -14.5979 0
+  name "pine tree(8)"
+}
+WaterBottle {
+  translation -8.96 -11.93 0.9179509500000004
+  rotation -0.7222382780001486 -0.6893869625190852 0.05583444904437799 2.1933357375127987e-15
+}
+WaterBottle {
+  translation -5.443756794273265 -15.543762430849556 0.9280466546935878
+  rotation -0.7068283122218746 0.7072456638307376 -0.01404663782531159 0.004895113639741906
+  name "water bottle(1)"
+}
+Can {
+  translation -8.85832 -11.7719 0.9810828324999997
+  rotation -2.4071541026026073e-15 -1.6967150276670407e-15 1 0.523599
+  name "can(3)"
+}
+Can {
+  translation -8.80832 -11.8589 0.9810828324999997
+  rotation -2.4071541026026073e-15 -1.6967150276670407e-15 1 0.523599
+  name "can(4)"
+}
+Can {
+  translation -8.75832 -11.9459 0.9810828324999997
+  rotation -2.4071541026026073e-15 -1.6967150276670407e-15 1 0.523599
+  name "can(5)"
+}
+Chair {
+  translation -6.07545 -12.83 0
+  rotation 0 0 1 0.785398
+  name "chair(3)"
+}
+Chair {
+  translation -5.45321 -13.511 0
+  rotation 0 0 1 0.785398
+  name "chair(2)"
+}
+Can {
+  translation -5.58000000116871 -15.420000001127336 0.9910828335149725
+  rotation 1.8564567261493843e-08 -3.2154882949769965e-08 0.9999999999999993 0.5235990000000004
+}
+Can {
+  translation -5.472060001168709 -15.427200001127336 0.991082834881207
+  rotation 1.8564567256612756e-08 -3.215488308198278e-08 0.9999999999999993 0.5235990000000004
+  name "can(1)"
+}
+Can {
+  translation -5.353140001168709 -15.393300001127336 0.9910828369537479
+  rotation 1.8564567228673927e-08 -3.215488297107697e-08 0.9999999999999993 0.5235990000000004
+  name "can(2)"
+}
+Chair {
+  translation -7.33402 -11.5709 0
+  rotation 0 0 1 0.785398
+}
+Chair {
+  translation -6.74721 -12.1602 0
+  rotation 0 0 1 0.785398
+  name "chair(1)"
+}
+Knife {
+  translation -5.829999983534945 -14.949942070711575 0.9358518738598408
+  rotation -0.004989095839949621 -0.004979587605185316 -0.9999751560063791 1.5708204571313393
+}
+Plate {
+  translation -8.80139 -11.4213 0.9199852850000002
+  rotation -6.099591550490588e-16 6.582695237126983e-16 -1 0.785395307179586
+  name "plate(3)"
+}
+Plate {
+  translation -8.55394 -11.7828 0.9199852850000002
+  rotation -6.099591550490588e-16 6.582695237126983e-16 -1 0.785395307179586
+  name "plate(4)"
+}
+Plate {
+  translation -4.85000000013686 -15.241800000136813 0.929985298331959
+  rotation 1.8526610209404027e-08 -4.964240335926809e-09 -0.9999999999999998 1.0471953071795863
+}
+Wall {
+  translation -7.47123 -15.3715 0
+  rotation 0 0 1 0.785401
+  name "wall(2)"
+}
+Wall {
+  translation -8.88524 -13.9539 0
+  rotation 0 0 1 0.785401
+  name "wall(1)"
+}
+Wall {
+  translation -8.17823 -14.6622 0
+  rotation 0 0 1 0.785401
+}
+BathroomSink {
+  translation -8.11554 -14.5747 0.79
+  rotation 0 0 1 0.785401
+}
+ComputerMouse {
+  translation -4.825320549276972 -12.618297170712612 0.709990190000101
+  rotation -7.478096462799371e-06 -1.8366025517245024e-06 0.9999999999703526 0.4816619122574808
+}
+ComputerMouse {
+  translation -5.932413090491948 -11.491864441434736 0.709990190000101
+  rotation -7.551254102495164e-06 -1.8366025514852603e-06 0.9999999999698027 0.47717138649714164
+  name "computer mouse(1)"
+}
+TableWithUmbrella {
+  translation -5.48744 -15.5874 0
+  rotation -9.58979e-09 2.31518e-08 -1 -0.785395307179586
+  name "table with umbrella(1)"
+}
+Knife {
+  translation -8.918125815129098 -11.336755825955617 0.925851856896456
+  rotation 0.00498637079909725 0.002059840220850311 0.9999854464763567 -2.3562055722626165
+  name "knife(3)"
+}
+Knife {
+  translation -8.582529624257175 -11.643583866880663 0.925851856896456
+  rotation 0.0049850345832898645 0.0006514385478418865 0.9999873624491571 -2.879799857859856
+  name "knife(4)"
+}
+Knife {
+  translation -8.58702750333391 -12.110800004877499 0.925851856896456
+  rotation 0.004984408632299603 -4.769061995120502e-06 0.999987577746765 3.1415901158655997
+  name "knife(5)"
+}
+Knife {
+  translation -5.359984805868611 -14.909944095649948 0.9358518807766285
+  rotation -0.00498801477552895 -0.003819909007162848 -0.9999802638071293 1.8326072038359935
+  name "knife(1)"
+}
+Knife {
+  translation -4.930649009385474 -15.113859045200295 0.9358518838337896
+  rotation 0.004986361209460463 0.002059836234312091 0.9999854465323866 -2.356205577154321
+  name "knife(2)"
+}
+Plate {
+  translation -5.669941181144221 -14.919998603699996 0.9299852915761835
+  rotation 0.02580943190071241 -0.025809490053006364 -0.9993336497127306 5.254818398477713e-07
+  name "plate(2)"
+}
+Plate {
+  translation -5.229941181144222 -14.949998603699996 0.9299852971365976
+  rotation 0.025809431915217715 -0.02580948999361687 -0.9993336497138898 5.254818398456776e-07
+  name "plate(1)"
+}
+TableWithUmbrella {
+  translation -9.17802 -11.9905 -0.01
+  rotation 0 0 1 0.785398
+}
+Plate {
+  translation -8.58221 -12.251 0.9199852850000002
+  rotation -6.099591550490588e-16 6.582695237126983e-16 -1 0.785395307179586
+  name "plate(5)"
+}
+Desk {
+  translation -6.14758 -11.1758 0
+  rotation 0 0 -1 -0.785395307179586
+  name "desk(1)"
+}
+Desk {
+  translation -5.02345 -12.3037 0
+  rotation 0 0 -1 -0.785395307179586
+}
+Pedestrian {
+  translation -6.96416 -11.2353 1.29
+  rotation 0 0 1 0.523599
+  name "pedestrian(3)"
+}
+Pedestrian {
+  translation -6.37508 -11.78 1.3
+  rotation 0 0 1 1.0472
+}
+Pedestrian {
+  translation -5.87496 -12.4178 1.27
+  rotation 0 0 1 0.523599
+  name "pedestrian(1)"
+}
+Pedestrian {
+  translation -5.29582 -13.0623 1.27
+  rotation 0 0 1 0.785398
+  name "pedestrian(2)"
+}
+DEF ID2 Crazyflie {
+  translation 0.03061128552522875 -0.010502959810166508 0.0349975497901161
+  rotation 1.8943903037732867e-09 -1.7925529155558944e-08 0.9999999999999999 2.732749990709068
+  name "cf3"
+  controller "swarm_ctrl_qr"
+  extensionSlot [
+    Emitter {
+      range 200
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+    Camera {
+      rotation 0 -1 0 -1.57
+      name "down_camera"
+      fieldOfView 1.31
+      width 320
+      height 240
+    }
+  ]
+}
+DEF ID1 Crazyflie {
+  translation 0.0297146 1.5 0.0349976
+  rotation -1.7030607245190736e-08 -7.025383214620514e-08 0.9999999999999974 2.7330086920451104
+  name "cf2"
+  controller "swarm_ctrl_qr"
+  extensionSlot [
+    Emitter {
+      range 200
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+    Camera {
+      rotation 0 -1 0 -1.57
+      name "down_camera"
+      fieldOfView 1.31
+      width 1920
+      height 1080
+    }
+  ]
+}
+DEF ID0 Crazyflie {
+  translation 0.0243323 3 0.0349976
+  rotation 1.1796908680596582e-07 6.064509764292132e-07 0.9999999999998093 2.734039558768828
+  name "cf1"
+  controller "swarm_ctrl_qr"
+  extensionSlot [
+    Emitter {
+      range 200
+      channel 1
+    }
+    Receiver {
+      channel 1
+    }
+    Camera {
+      rotation 0 -1 0 -1.57
+      name "down_camera"
+      fieldOfView 1.31
+      width 320
+      height 240
+    }
+  ]
+}
+Solid {
+  translation 15 -5 0.04
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr66.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR6"
+}
+Solid {
+  translation 25 -5 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr55.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR5"
+}
+Solid {
+  translation 30 5 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr44.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR4"
+}
+Solid {
+  translation 25 15 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr33.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR3"
+}
+Solid {
+  translation 10 5 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr11.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR1"
+}
+Solid {
+  translation 15 15 0.02
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "../files/qr22.jpeg"
+          ]
+        }
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "QR2"
+}
+DEF red_area Solid {
+  translation 19.95 14.96 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+        occlusionMapStrength 0
+        emissiveIntensity 0
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+  name "solid(1)"
+}
+DEF blue_area Solid {
+  translation 11.53 10.4 0.03
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+        occlusionMapStrength 0
+        emissiveIntensity 0
+      }
+      geometry Plane {
+        size 1.2 1.2
+      }
+    }
+  ]
+}
+Windmill {
+  translation 36.9576 28.0493 -1.35127e-06
+  rotation 7.71832e-09 1.01613e-09 1 -2.3561953071795863
+}
+Windmill {
+  translation -1.18852 -16.7003 -6.13036e-07
+  rotation -2.45315e-09 1.86336e-08 1 0.7854
+  name "windmill(1)"
+}
+Windmill {
+  translation 5.01008 31.0555 -6.4198e-07
+  rotation 1.24575e-08 -7.19234e-09 1 -1.047195307179586
+  name "windmill(2)"
+}
+Windmill {
+  translation 38.67 -17.83 0
+  rotation 0 0 1 2.3562
+  name "windmill(3)"
+}
+SquareManhole {
+  translation 0 0 -0.03
+}
+SquareManhole {
+  translation 0 1.5 -0.03
+  name "manhole(1)"
+}
+SquareManhole {
+  translation 0 3 -0.03
+  name "manhole(2)"
+}
+Pine {
+  translation 24.8817 33.2526 0
+  rotation 0 0 1 3.14159
+}
+Pine {
+  translation 13.3332 33.0735 0
+  rotation 0 0 1 2.87979
+  name "pine tree(1)"
+}
+Pine {
+  translation -13.3541 -9.37634 0
+  rotation 0 0 1 0.785398
+  name "pine tree(3)"
+}
+Pine {
+  translation -12.2087 -12.2121 0
+  rotation 0 0 1 0.785398
+  name "pine tree(11)"
+}
+Pine {
+  translation -13.36 -11.0608 0
+  rotation 0 0 1 0.785398
+  name "pine tree(15)"
+}
+Pine {
+  translation -4.59927 -19.7844 0
+  rotation 0 0 1 0.785398
+  name "pine tree(12)"
+}
+Pine {
+  translation 24.8674 -23.5939 0
+  name "pine tree(4)"
+}
+Pine {
+  translation -10.3541 23.2521 0
+  name "pine tree(5)"
+}
+Pine {
+  translation 15.3072 -23.7807 0
+  name "pine tree(6)"
+}
+Pine {
+  translation -15.2843 9.4059 0
+  rotation 0 0 1 3.14159
+  name "pine tree(2)"
+}
+Forest {
+  translation 0 0 0.04
+  shape [
+    200 200
+    200 0
+    50 0
+    50 50
+    -50 50
+    -50 -50
+    50 -50
+    50 0
+    200 0
+    200 -200
+    -200 -200
+    -200 200
+  ]
+  density 0.01
+  type "cherry tree"
+  randomSeed 1
+  maxHeight 12
+  minHeight 6
+  maxRadius 6
+  minRadius 3
+}
+WallPlug {
+  translation -5.2121 -11.716 0.72
+  rotation 0.35740699927911007 0.8628559982596194 0.35740699927911007 -1.7177753071795863
+}
+WallPlug {
+  translation -5.55853 -11.3683 0.72
+  rotation 0.35740699927911007 0.8628559982596194 0.35740699927911007 -1.7177753071795863
+  name "wall plug(1)"
+}
